@@ -1,4 +1,4 @@
-# Municipal_complaint_registration
+# Municipal Complaint Registration
 Android app
 Our Android application is designed to assist the public in reporting issues related to public property to their municipal office efficiently. With our app, users can easily document problems by attaching images or videos to their complaints. Additionally, we provide a convenient option for users to provide a brief description of the issue they are reporting. Our goal is to streamline the process of reporting and addressing concerns related to public property, making it more accessible and user-friendly for everyone.
 
