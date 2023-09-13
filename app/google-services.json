@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "560068887819",
+    "firebase_url": "https://municipal-compliant-reg-default-rtdb.firebaseio.com",
+    "project_id": "municipal-compliant-reg",
+    "storage_bucket": "municipal-compliant-reg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560068887819:android:4d0f10cf14468b0d790e0e",
+        "android_client_info": {
+          "package_name": "com.example.municipal_compliant_reg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560068887819-45tapd6o28hpatu23snnjje14f82jmsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALzSDDvMZDWN96MOsaLbakHBDJZcfF4Dg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560068887819-45tapd6o28hpatu23snnjje14f82jmsd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

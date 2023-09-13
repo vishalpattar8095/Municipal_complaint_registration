@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".complaint_form">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:scaleX="2"
+        android:scaleY="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/form_bg"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Municipal Compalint Form"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/uploadimage"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="150dp"
+        android:text="Upload image"
+        android:translationX="25dp"
+        android:translationY="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="360dp"
+        android:layout_marginBottom="120dp"
+        android:text="submit"
+        android:translationX="130dp"
+        android:translationY="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="414dp"
+        android:layout_height="506dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="365dp"
+            android:layout_height="60dp"
+            android:alpha="0.9"
+            android:background="#2B0505"
+            android:ems="10"
+            android:hint="Full Address"
+            android:inputType="textPostalAddress"
+            android:paddingLeft="10dp"
+            android:textColor="#E8D9D9"
+            android:textColorHint="#736A6A"
+            android:textSize="20sp"
+            android:translationX="25dp"
+            android:translationY="30dp" />
+
+        <EditText
+            android:id="@+id/subjectCmpl"
+            android:layout_width="365dp"
+            android:layout_height="60dp"
+            android:background="#2B0505"
+            android:ems="10"
+            android:hint="Subject Of Complaint"
+            android:paddingLeft="10dp"
+            android:textColor="#E8D9D9"
+            android:textColorHint="#736A6A"
+            android:textSize="20sp"
+            android:translationX="25dp"
+            android:translationY="40dp" />
+
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="368dp"
+            android:layout_height="298dp"
+            android:background="#2B0505"
+            android:ems="10"
+            android:gravity="fill_horizontal"
+            android:hint="Description of comaplaint"
+            android:paddingLeft="10dp"
+            android:textColor="#E8D9D9"
+            android:textColorHint="#736A6A"
+            android:textSize="20sp"
+            android:translationX="25dp"
+            android:translationY="50dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/comp_img"
+        android:layout_width="129dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toEndOf="@+id/uploadimage"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

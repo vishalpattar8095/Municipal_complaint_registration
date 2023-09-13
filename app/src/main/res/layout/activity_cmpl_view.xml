@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80C0DD"
+    tools:context=".cmpl_view">
+
+    <ImageView
+        android:id="@+id/img_ad_view"
+        android:layout_width="303dp"
+        android:layout_height="270dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="413dp"
+        android:layout_height="314dp"
+        android:layout_marginTop="276dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_ad_view">
+
+        <TextView
+            android:id="@+id/subject_ad_view"
+            android:layout_width="391dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:text="Subject"
+            android:textColor="#451B1B"
+            android:textSize="30sp"
+            android:translationX="10dp"
+            android:translationY="10dp" />
+
+        <TextView
+            android:id="@+id/address_ad_view"
+            android:layout_width="391dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:text="Address"
+            android:textColor="#451B1B"
+            android:textSize="30sp"
+            android:translationX="10dp"
+            android:translationY="10dp" />
+
+        <TextView
+            android:id="@+id/date_ad_view"
+            android:layout_width="391dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:text="Date"
+            android:textColor="#451B1B"
+            android:textSize="30sp"
+            android:translationX="10dp"
+            android:translationY="10dp" />
+
+        <TextView
+            android:id="@+id/desc_ad_view"
+            android:layout_width="391dp"
+            android:layout_height="144dp"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:text="Description"
+            android:textColor="#451B1B"
+            android:textSize="30sp"
+            android:translationX="10dp"
+            android:translationY="10dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/resolved"
+        android:layout_width="161dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:text="Resolved"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+    <Button
+        android:id="@+id/resolving"
+        android:layout_width="161dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="36dp"
+        android:text="Resolving"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
